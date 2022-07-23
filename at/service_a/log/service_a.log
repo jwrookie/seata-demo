@@ -1,0 +1,90 @@
+2022-07-20T16:00:51.414+0800	ERROR	log/logging.go:178	Data resource is not exist, resourceID: seata_order
+2022-07-20T16:45:25.663+0800	ERROR	log/logging.go:178	Data resource is not exist, resourceID: seata_order
+2022-07-20T16:57:04.336+0800	ERROR	log/logging.go:178	[stacktrace]branchCommit failed. xid:[aggregationSvc:9293395442442243], branchID:[9293395442442244], resourceID:[seata_a], branchType:[0], applicationData:[[123 34 115 107 105 112 67 104 101 99 107 76 111 99 107 34 58 116 114 117 101 125]]
+2022-07-20T16:57:04.339+0800	ERROR	log/logging.go:173	Error 1146: Table 'seata_a.undo_log' doesn't exist
+2022-07-20T16:57:07.355+0800	ERROR	log/logging.go:178	[stacktrace]branchCommit failed. xid:[aggregationSvc:9293395442442243], branchID:[9293395442442244], resourceID:[seata_a], branchType:[0], applicationData:[[123 34 115 107 105 112 67 104 101 99 107 76 111 99 107 34 58 116 114 117 101 125]]
+2022-07-20T16:57:07.356+0800	ERROR	log/logging.go:173	Error 1146: Table 'seata_a.undo_log' doesn't exist
+2022-07-20T16:57:10.371+0800	ERROR	log/logging.go:178	[stacktrace]branchCommit failed. xid:[aggregationSvc:9293395442442243], branchID:[9293395442442244], resourceID:[seata_a], branchType:[0], applicationData:[[123 34 115 107 105 112 67 104 101 99 107 76 111 99 107 34 58 116 114 117 101 125]]
+2022-07-20T16:57:10.371+0800	ERROR	log/logging.go:173	Error 1146: Table 'seata_a.undo_log' doesn't exist
+2022-07-20T16:57:13.390+0800	ERROR	log/logging.go:178	[stacktrace]branchCommit failed. xid:[aggregationSvc:9293395442442243], branchID:[9293395442442244], resourceID:[seata_a], branchType:[0], applicationData:[[123 34 115 107 105 112 67 104 101 99 107 76 111 99 107 34 58 116 114 117 101 125]]
+2022-07-20T16:57:13.390+0800	ERROR	log/logging.go:173	Error 1146: Table 'seata_a.undo_log' doesn't exist
+2022-07-20T16:57:16.416+0800	ERROR	log/logging.go:178	[stacktrace]branchCommit failed. xid:[aggregationSvc:9293395442442243], branchID:[9293395442442244], resourceID:[seata_a], branchType:[0], applicationData:[[123 34 115 107 105 112 67 104 101 99 107 76 111 99 107 34 58 116 114 117 101 125]]
+2022-07-20T16:57:16.416+0800	ERROR	log/logging.go:173	Error 1146: Table 'seata_a.undo_log' doesn't exist
+2022-07-20T16:57:19.430+0800	ERROR	log/logging.go:178	[stacktrace]branchCommit failed. xid:[aggregationSvc:9293395442442243], branchID:[9293395442442244], resourceID:[seata_a], branchType:[0], applicationData:[[123 34 115 107 105 112 67 104 101 99 107 76 111 99 107 34 58 116 114 117 101 125]]
+2022-07-20T16:57:19.430+0800	ERROR	log/logging.go:173	Error 1146: Table 'seata_a.undo_log' doesn't exist
+2022-07-20T16:57:22.450+0800	ERROR	log/logging.go:178	[stacktrace]branchCommit failed. xid:[aggregationSvc:9293395442442243], branchID:[9293395442442244], resourceID:[seata_a], branchType:[0], applicationData:[[123 34 115 107 105 112 67 104 101 99 107 76 111 99 107 34 58 116 114 117 101 125]]
+2022-07-20T16:57:22.450+0800	ERROR	log/logging.go:173	Error 1146: Table 'seata_a.undo_log' doesn't exist
+2022-07-20T16:57:25.464+0800	ERROR	log/logging.go:178	[stacktrace]branchCommit failed. xid:[aggregationSvc:9293395442442243], branchID:[9293395442442244], resourceID:[seata_a], branchType:[0], applicationData:[[123 34 115 107 105 112 67 104 101 99 107 76 111 99 107 34 58 116 114 117 101 125]]
+2022-07-20T16:57:25.465+0800	ERROR	log/logging.go:173	Error 1146: Table 'seata_a.undo_log' doesn't exist
+2022-07-20T16:57:27.478+0800	ERROR	log/logging.go:178	[stacktrace]branchCommit failed. xid:[aggregationSvc:9293395442442243], branchID:[9293395442442244], resourceID:[seata_a], branchType:[0], applicationData:[[123 34 115 107 105 112 67 104 101 99 107 76 111 99 107 34 58 116 114 117 101 125]]
+2022-07-20T16:57:27.478+0800	ERROR	log/logging.go:173	Error 1146: Table 'seata_a.undo_log' doesn't exist
+2022-07-20T16:57:30.494+0800	ERROR	log/logging.go:178	[stacktrace]branchCommit failed. xid:[aggregationSvc:9293395442442243], branchID:[9293395442442244], resourceID:[seata_a], branchType:[0], applicationData:[[123 34 115 107 105 112 67 104 101 99 107 76 111 99 107 34 58 116 114 117 101 125]]
+2022-07-20T16:57:30.494+0800	ERROR	log/logging.go:173	Error 1146: Table 'seata_a.undo_log' doesn't exist
+2022-07-20T16:57:33.511+0800	ERROR	log/logging.go:178	[stacktrace]branchCommit failed. xid:[aggregationSvc:9293395442442243], branchID:[9293395442442244], resourceID:[seata_a], branchType:[0], applicationData:[[123 34 115 107 105 112 67 104 101 99 107 76 111 99 107 34 58 116 114 117 101 125]]
+2022-07-20T16:57:33.511+0800	ERROR	log/logging.go:173	Error 1146: Table 'seata_a.undo_log' doesn't exist
+2022-07-20T16:57:36.526+0800	ERROR	log/logging.go:178	[stacktrace]branchCommit failed. xid:[aggregationSvc:9293395442442243], branchID:[9293395442442244], resourceID:[seata_a], branchType:[0], applicationData:[[123 34 115 107 105 112 67 104 101 99 107 76 111 99 107 34 58 116 114 117 101 125]]
+2022-07-20T16:57:36.527+0800	ERROR	log/logging.go:173	Error 1146: Table 'seata_a.undo_log' doesn't exist
+2022-07-20T16:57:39.546+0800	ERROR	log/logging.go:178	[stacktrace]branchCommit failed. xid:[aggregationSvc:9293395442442243], branchID:[9293395442442244], resourceID:[seata_a], branchType:[0], applicationData:[[123 34 115 107 105 112 67 104 101 99 107 76 111 99 107 34 58 116 114 117 101 125]]
+2022-07-20T16:57:39.546+0800	ERROR	log/logging.go:173	Error 1146: Table 'seata_a.undo_log' doesn't exist
+2022-07-20T16:57:42.563+0800	ERROR	log/logging.go:178	[stacktrace]branchCommit failed. xid:[aggregationSvc:9293395442442243], branchID:[9293395442442244], resourceID:[seata_a], branchType:[0], applicationData:[[123 34 115 107 105 112 67 104 101 99 107 76 111 99 107 34 58 116 114 117 101 125]]
+2022-07-20T16:57:42.563+0800	ERROR	log/logging.go:173	Error 1146: Table 'seata_a.undo_log' doesn't exist
+2022-07-20T16:57:45.578+0800	ERROR	log/logging.go:178	[stacktrace]branchCommit failed. xid:[aggregationSvc:9293395442442243], branchID:[9293395442442244], resourceID:[seata_a], branchType:[0], applicationData:[[123 34 115 107 105 112 67 104 101 99 107 76 111 99 107 34 58 116 114 117 101 125]]
+2022-07-20T16:57:45.578+0800	ERROR	log/logging.go:173	Error 1146: Table 'seata_a.undo_log' doesn't exist
+2022-07-20T16:57:48.594+0800	ERROR	log/logging.go:178	[stacktrace]branchCommit failed. xid:[aggregationSvc:9293395442442243], branchID:[9293395442442244], resourceID:[seata_a], branchType:[0], applicationData:[[123 34 115 107 105 112 67 104 101 99 107 76 111 99 107 34 58 116 114 117 101 125]]
+2022-07-20T16:57:48.595+0800	ERROR	log/logging.go:173	Error 1146: Table 'seata_a.undo_log' doesn't exist
+2022-07-20T16:57:51.610+0800	ERROR	log/logging.go:178	[stacktrace]branchCommit failed. xid:[aggregationSvc:9293395442442243], branchID:[9293395442442244], resourceID:[seata_a], branchType:[0], applicationData:[[123 34 115 107 105 112 67 104 101 99 107 76 111 99 107 34 58 116 114 117 101 125]]
+2022-07-20T16:57:51.610+0800	ERROR	log/logging.go:173	Error 1146: Table 'seata_a.undo_log' doesn't exist
+2022-07-20T16:57:54.626+0800	ERROR	log/logging.go:178	[stacktrace]branchCommit failed. xid:[aggregationSvc:9293395442442243], branchID:[9293395442442244], resourceID:[seata_a], branchType:[0], applicationData:[[123 34 115 107 105 112 67 104 101 99 107 76 111 99 107 34 58 116 114 117 101 125]]
+2022-07-20T16:57:54.626+0800	ERROR	log/logging.go:173	Error 1146: Table 'seata_a.undo_log' doesn't exist
+2022-07-20T16:57:57.641+0800	ERROR	log/logging.go:178	[stacktrace]branchCommit failed. xid:[aggregationSvc:9293395442442243], branchID:[9293395442442244], resourceID:[seata_a], branchType:[0], applicationData:[[123 34 115 107 105 112 67 104 101 99 107 76 111 99 107 34 58 116 114 117 101 125]]
+2022-07-20T16:57:57.641+0800	ERROR	log/logging.go:173	Error 1146: Table 'seata_a.undo_log' doesn't exist
+2022-07-20T16:58:00.651+0800	ERROR	log/logging.go:178	Data resource is not exist, resourceID: seata_b
+2022-07-20T16:58:03.666+0800	INFO	log/logging.go:158	0 undo log deleted by xid:aggregationSvc:9293395442442243 and branchID:9293395442442244
+
+2022-07-20T16:58:25.724+0800	INFO	log/logging.go:158	1 undo log deleted by xid:aggregationSvc:9293395442442246 and branchID:9293395442442247
+
+2022-07-20T16:59:36.843+0800	INFO	log/logging.go:158	1 undo log deleted by xid:aggregationSvc:9293395442442249 and branchID:9293395442442250
+
+2022-07-20T17:04:23.264+0800	INFO	log/logging.go:158	1 undo log deleted by xid:aggregationSvc:9293395442442252 and branchID:9293395442442253
+
+2022-07-20T17:04:27.921+0800	INFO	log/logging.go:158	xid aggregationSvc:9293395442442255 branch 9293395442442256, undo_log deleted with GlobalFinished
+
+2022-07-20T17:04:34.959+0800	INFO	log/logging.go:158	xid aggregationSvc:9293395442442257 branch 9293395442442258, undo_log deleted with GlobalFinished
+
+2022-07-20T17:05:43.409+0800	INFO	log/logging.go:158	1 undo log deleted by xid:aggregationSvc:9293395442442259 and branchID:9293395442442260
+
+2022-07-20T17:08:53.771+0800	INFO	log/logging.go:158	xid aggregationSvc:9293395442442262 branch 9293395442442263, undo_log deleted with GlobalFinished
+
+2022-07-20T17:11:01.517+0800	INFO	log/logging.go:158	xid aggregationSvc:9293395442442264 branch 9293395442442265, undo_log deleted with GlobalFinished
+
+2022-07-20T17:12:43.025+0800	INFO	log/logging.go:158	1 undo log deleted by xid:aggregationSvc:9293395442442266 and branchID:9293395442442267
+
+2022-07-20T17:13:44.138+0800	INFO	log/logging.go:158	1 undo log deleted by xid:aggregationSvc:9293395442442269 and branchID:9293395442442270
+
+2022-07-20T17:14:29.787+0800	ERROR	log/logging.go:178	branch register err: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing dial tcp [::1]:8091: connectex: No connection could be made because the target machine actively refused it."
+2022-07-20T17:14:29.818+0800	ERROR	log/logging.go:178	branch register err: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing dial tcp [::1]:8091: connectex: No connection could be made because the target machine actively refused it."
+2022-07-20T17:14:29.848+0800	ERROR	log/logging.go:178	branch register err: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing dial tcp [::1]:8091: connectex: No connection could be made because the target machine actively refused it."
+2022-07-20T17:14:29.878+0800	ERROR	log/logging.go:178	branch register err: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing dial tcp [::1]:8091: connectex: No connection could be made because the target machine actively refused it."
+2022-07-20T17:14:29.908+0800	ERROR	log/logging.go:178	branch register err: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing dial tcp [::1]:8091: connectex: No connection could be made because the target machine actively refused it."
+2022-07-20T17:14:29.939+0800	ERROR	log/logging.go:178	branch register err: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing dial tcp [::1]:8091: connectex: No connection could be made because the target machine actively refused it."
+2022-07-20T17:14:29.969+0800	ERROR	log/logging.go:178	branch register err: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing dial tcp [::1]:8091: connectex: No connection could be made because the target machine actively refused it."
+2022-07-20T17:14:29.999+0800	ERROR	log/logging.go:178	branch register err: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing dial tcp [::1]:8091: connectex: No connection could be made because the target machine actively refused it."
+2022-07-20T17:14:30.030+0800	ERROR	log/logging.go:178	branch register err: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing dial tcp [::1]:8091: connectex: No connection could be made because the target machine actively refused it."
+2022-07-20T17:14:30.061+0800	ERROR	log/logging.go:178	branch register err: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing dial tcp [::1]:8091: connectex: No connection could be made because the target machine actively refused it."
+2022-07-20T17:14:30.090+0800	ERROR	log/logging.go:178	branch register err: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing dial tcp [::1]:8091: connectex: No connection could be made because the target machine actively refused it."
+2022-07-20T17:14:32.441+0800	INFO	log/logging.go:158	1 undo log deleted by xid:aggregationSvc:9293400157962241 and branchID:9293400157962242
+
+2022-07-20T17:14:33.459+0800	ERROR	log/logging.go:178	Data resource is not exist, resourceID: seata_b
+2022-07-20T17:14:36.472+0800	INFO	log/logging.go:158	1 undo log deleted by xid:aggregationSvc:9293400157962244 and branchID:9293400157962245
+
+2022-07-20T17:28:37.774+0800	ERROR	log/logging.go:178	Data resource is not exist, resourceID: seata_b
+2022-07-20T17:28:40.802+0800	INFO	log/logging.go:158	1 undo log deleted by xid:aggregationSvc:9293400157962247 and branchID:9293400157962248
+
+2022-07-23T13:43:26.008+0800	INFO	log/logging.go:158	1 undo log deleted by xid:aggregationSvc:9294409848844289 and branchID:9294409848844290
+
+2022-07-23T15:02:49.670+0800	INFO	log/logging.go:158	xid aggregationSvc:9294412836159493 branch 9294412836159494, undo_log deleted with GlobalFinished
+
+2022-07-23T15:04:33.079+0800	INFO	log/logging.go:153	before commit
+
+2022-07-23T15:04:54.871+0800	INFO	log/logging.go:158	1 undo log deleted by xid:aggregationSvc:9294412836159495 and branchID:9294412836159496
+

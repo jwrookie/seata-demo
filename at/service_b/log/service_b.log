@@ -1,0 +1,51 @@
+2022-07-20T16:57:03.325+0800	ERROR	Data resource is not exist, resourceID: seata_a
+2022-07-20T16:57:06.348+0800	ERROR	Data resource is not exist, resourceID: seata_a
+2022-07-20T16:57:09.361+0800	ERROR	Data resource is not exist, resourceID: seata_a
+2022-07-20T16:57:12.382+0800	ERROR	Data resource is not exist, resourceID: seata_a
+2022-07-20T16:57:15.409+0800	ERROR	Data resource is not exist, resourceID: seata_a
+2022-07-20T16:57:18.423+0800	ERROR	Data resource is not exist, resourceID: seata_a
+2022-07-20T16:57:21.441+0800	ERROR	[stacktrace]branchCommit failed. xid:[aggregationSvc:9293395442442243], branchID:[9293395442442245], resourceID:[seata_b], branchType:[0], applicationData:[[123 34 115 107 105 112 67 104 101 99 107 76 111 99 107 34 58 116 114 117 101 125]]
+2022-07-20T16:57:21.442+0800	ERROR	Error 1146: Table 'seata_b.undo_log' doesn't exist
+2022-07-20T16:57:24.456+0800	ERROR	Data resource is not exist, resourceID: seata_a
+2022-07-20T16:57:28.483+0800	ERROR	Data resource is not exist, resourceID: seata_a
+2022-07-20T16:57:31.497+0800	ERROR	Data resource is not exist, resourceID: seata_a
+2022-07-20T16:57:34.515+0800	ERROR	Data resource is not exist, resourceID: seata_a
+2022-07-20T16:57:37.534+0800	ERROR	[stacktrace]branchCommit failed. xid:[aggregationSvc:9293395442442243], branchID:[9293395442442245], resourceID:[seata_b], branchType:[0], applicationData:[[123 34 115 107 105 112 67 104 101 99 107 76 111 99 107 34 58 116 114 117 101 125]]
+2022-07-20T16:57:37.534+0800	ERROR	Error 1146: Table 'seata_b.undo_log' doesn't exist
+2022-07-20T16:57:40.550+0800	ERROR	Data resource is not exist, resourceID: seata_a
+2022-07-20T16:57:43.567+0800	ERROR	Data resource is not exist, resourceID: seata_a
+2022-07-20T16:57:46.583+0800	ERROR	Data resource is not exist, resourceID: seata_a
+2022-07-20T16:57:49.598+0800	ERROR	Data resource is not exist, resourceID: seata_a
+2022-07-20T16:57:52.614+0800	ERROR	Data resource is not exist, resourceID: seata_a
+2022-07-20T16:57:56.633+0800	ERROR	Data resource is not exist, resourceID: seata_a
+2022-07-20T16:57:59.648+0800	ERROR	Data resource is not exist, resourceID: seata_a
+2022-07-20T16:58:02.658+0800	ERROR	Data resource is not exist, resourceID: seata_a
+2022-07-20T16:58:04.680+0800	INFO	0 undo log deleted by xid:aggregationSvc:9293395442442243 and branchID:9293395442442245
+
+2022-07-20T16:58:25.730+0800	INFO	1 undo log deleted by xid:aggregationSvc:9293395442442246 and branchID:9293395442442248
+
+2022-07-20T16:59:36.855+0800	INFO	1 undo log deleted by xid:aggregationSvc:9293395442442249 and branchID:9293395442442251
+
+2022-07-20T17:04:23.279+0800	INFO	1 undo log deleted by xid:aggregationSvc:9293395442442252 and branchID:9293395442442254
+
+2022-07-20T17:05:43.416+0800	INFO	1 undo log deleted by xid:aggregationSvc:9293395442442259 and branchID:9293395442442261
+
+2022-07-20T17:12:42.013+0800	ERROR	Data resource is not exist, resourceID: seata_a
+2022-07-20T17:12:44.036+0800	INFO	1 undo log deleted by xid:aggregationSvc:9293395442442266 and branchID:9293395442442268
+
+2022-07-20T17:13:44.157+0800	INFO	1 undo log deleted by xid:aggregationSvc:9293395442442269 and branchID:9293395442442271
+
+2022-07-20T17:14:31.430+0800	ERROR	Data resource is not exist, resourceID: seata_a
+2022-07-20T17:14:32.448+0800	INFO	1 undo log deleted by xid:aggregationSvc:9293400157962241 and branchID:9293400157962243
+
+2022-07-20T17:14:34.462+0800	ERROR	Data resource is not exist, resourceID: seata_a
+2022-07-20T17:14:36.478+0800	INFO	1 undo log deleted by xid:aggregationSvc:9293400157962244 and branchID:9293400157962246
+
+2022-07-20T17:28:39.789+0800	ERROR	Data resource is not exist, resourceID: seata_a
+2022-07-20T17:28:41.816+0800	INFO	1 undo log deleted by xid:aggregationSvc:9293400157962247 and branchID:9293400157962249
+
+2022-07-23T13:43:26.019+0800	INFO	1 undo log deleted by xid:aggregationSvc:9294409848844289 and branchID:9294409848844291
+
+2022-07-23T15:04:53.837+0800	ERROR	Data resource is not exist, resourceID: seata_a
+2022-07-23T15:04:54.894+0800	INFO	1 undo log deleted by xid:aggregationSvc:9294412836159495 and branchID:9294412836159497
+

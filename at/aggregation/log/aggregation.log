@@ -1,0 +1,47 @@
+2022-07-20T16:45:55.203+0800	INFO	log/logging.go:158	begin new global transaction [aggregationSvc:9293392871899140]
+2022-07-20T16:45:55.225+0800	INFO	log/logging.go:158	[aggregationSvc:9293392871899140] rollback status: RolledBack
+2022-07-20T16:52:16.375+0800	INFO	log/logging.go:158	begin new global transaction [aggregationSvc:9293392871899141]
+2022-07-20T16:52:16.422+0800	INFO	log/logging.go:158	[aggregationSvc:9293392871899141] rollback status: RolledBack
+2022-07-20T16:56:26.011+0800	INFO	log/logging.go:158	begin new global transaction [aggregationSvc:9293395442442241]
+2022-07-20T16:56:26.220+0800	INFO	log/logging.go:158	[aggregationSvc:9293395442442241] rollback status: RolledBack
+2022-07-20T16:57:01.704+0800	INFO	log/logging.go:158	begin new global transaction [aggregationSvc:9293395442442243]
+2022-07-20T16:57:02.062+0800	INFO	log/logging.go:158	[aggregationSvc:9293395442442243] commit status: Committed
+2022-07-20T16:58:24.627+0800	INFO	log/logging.go:158	begin new global transaction [aggregationSvc:9293395442442246]
+2022-07-20T16:58:24.683+0800	INFO	log/logging.go:158	[aggregationSvc:9293395442442246] commit status: Committed
+2022-07-20T16:59:36.131+0800	INFO	log/logging.go:158	begin new global transaction [aggregationSvc:9293395442442249]
+2022-07-20T16:59:36.184+0800	INFO	log/logging.go:158	[aggregationSvc:9293395442442249] commit status: Committed
+2022-07-20T17:04:21.354+0800	INFO	log/logging.go:158	begin new global transaction [aggregationSvc:9293395442442252]
+2022-07-20T17:04:21.420+0800	INFO	log/logging.go:158	[aggregationSvc:9293395442442252] commit status: Committed
+2022-07-20T17:04:26.946+0800	INFO	log/logging.go:158	begin new global transaction [aggregationSvc:9293395442442255]
+2022-07-20T17:04:26.979+0800	ERROR	log/logging.go:178	failed to report global rollback [aggregationSvc:9293395442442255],Retry Countdown: 5, reason: rpc error: code = Unknown desc = Data resource is not exist, resourceID: seata_a
+2022-07-20T17:04:26.982+0800	INFO	log/logging.go:158	[aggregationSvc:9293395442442255] rollback status: RollbackRetrying
+2022-07-20T17:04:33.098+0800	INFO	log/logging.go:158	begin new global transaction [aggregationSvc:9293395442442257]
+2022-07-20T17:04:33.133+0800	ERROR	log/logging.go:178	failed to report global rollback [aggregationSvc:9293395442442257],Retry Countdown: 5, reason: rpc error: code = Unknown desc = Data resource is not exist, resourceID: seata_a
+2022-07-20T17:04:33.136+0800	INFO	log/logging.go:158	[aggregationSvc:9293395442442257] rollback status: RollbackRetrying
+2022-07-20T17:05:41.675+0800	INFO	log/logging.go:158	begin new global transaction [aggregationSvc:9293395442442259]
+2022-07-20T17:05:41.728+0800	INFO	log/logging.go:158	[aggregationSvc:9293395442442259] commit status: Committed
+2022-07-20T17:08:53.714+0800	INFO	log/logging.go:158	begin new global transaction [aggregationSvc:9293395442442262]
+2022-07-20T17:08:53.784+0800	INFO	log/logging.go:158	[aggregationSvc:9293395442442262] rollback status: RolledBack
+2022-07-20T17:11:00.188+0800	INFO	log/logging.go:158	begin new global transaction [aggregationSvc:9293395442442264]
+2022-07-20T17:11:00.228+0800	ERROR	log/logging.go:178	failed to report global rollback [aggregationSvc:9293395442442264],Retry Countdown: 5, reason: rpc error: code = Unknown desc = Data resource is not exist, resourceID: seata_a
+2022-07-20T17:11:00.231+0800	INFO	log/logging.go:158	[aggregationSvc:9293395442442264] rollback status: RollbackRetrying
+2022-07-20T17:12:40.396+0800	INFO	log/logging.go:158	begin new global transaction [aggregationSvc:9293395442442266]
+2022-07-20T17:12:40.462+0800	INFO	log/logging.go:158	[aggregationSvc:9293395442442266] commit status: Committed
+2022-07-20T17:13:42.253+0800	INFO	log/logging.go:158	begin new global transaction [aggregationSvc:9293395442442269]
+2022-07-20T17:13:42.332+0800	INFO	log/logging.go:158	[aggregationSvc:9293395442442269] commit status: Committed
+2022-07-20T17:14:29.779+0800	INFO	log/logging.go:158	begin new global transaction [aggregationSvc:9293400157962241]
+2022-07-20T17:14:30.164+0800	INFO	log/logging.go:158	[aggregationSvc:9293400157962241] commit status: Committed
+2022-07-20T17:14:31.159+0800	INFO	log/logging.go:158	begin new global transaction [aggregationSvc:9293400157962244]
+2022-07-20T17:14:31.207+0800	INFO	log/logging.go:158	[aggregationSvc:9293400157962244] commit status: Committed
+2022-07-20T17:28:36.727+0800	INFO	log/logging.go:158	begin new global transaction [aggregationSvc:9293400157962247]
+2022-07-20T17:28:36.803+0800	INFO	log/logging.go:158	[aggregationSvc:9293400157962247] commit status: Committed
+2022-07-23T13:43:24.985+0800	INFO	log/logging.go:158	begin new global transaction [aggregationSvc:9294409848844289]
+2022-07-23T13:43:25.053+0800	INFO	log/logging.go:158	[aggregationSvc:9294409848844289] commit status: Committed
+2022-07-23T14:32:30.318+0800	INFO	log/logging.go:158	begin new global transaction [aggregationSvc:9294412836159489]
+2022-07-23T14:32:30.387+0800	INFO	log/logging.go:158	[aggregationSvc:9294412836159489] rollback status: RolledBack
+2022-07-23T14:40:43.739+0800	INFO	log/logging.go:158	begin new global transaction [aggregationSvc:9294412836159490]
+2022-07-23T15:00:56.796+0800	INFO	log/logging.go:158	begin new global transaction [aggregationSvc:9294412836159493]
+2022-07-23T15:01:49.435+0800	ERROR	log/logging.go:178	failed to report global rollback [aggregationSvc:9294412836159493],Retry Countdown: 5, reason: rpc error: code = Unknown desc = Data resource is not exist, resourceID: seata_a
+2022-07-23T15:01:49.439+0800	INFO	log/logging.go:158	[aggregationSvc:9294412836159493] rollback status: RollbackRetrying
+2022-07-23T15:04:33.063+0800	INFO	log/logging.go:158	begin new global transaction [aggregationSvc:9294412836159495]
+2022-07-23T15:04:53.188+0800	INFO	log/logging.go:158	[aggregationSvc:9294412836159495] commit status: Committed

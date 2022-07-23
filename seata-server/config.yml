@@ -1,0 +1,51 @@
+server:
+  port: 8091
+  maxRollbackRetryTimeout: -1
+  maxCommitRetryTimeout: -1
+  rollbackRetryTimeoutUnlockEnable: true
+  asyncCommittingRetryPeriod: 1s
+  committingRetryPeriod: 5s
+  rollingBackRetryPeriod: 1s
+  timeoutRetryPeriod: 1s
+  streamMessageTimeout: 30s
+  rollbackDeadSeconds: 12
+enforcementPolicy:
+  minTime: 5m
+  permitWithoutStream: true
+serverParameters:
+  maxConnectionIdle: 15s
+  maxConnectionAge: 30s
+  maxConnectionAgeGrace: 5s
+  time: 5s
+  timeout: 20s
+serverTLS:
+  enable: false
+  certFilePath: ""
+  keyFilePath: ""
+clientParameters:
+  time: 10s
+  timeout: 20s
+  permitWithoutStream: true
+storage:
+#  inMemory driver only for testing
+#  inmemory:
+  mysql:
+    dsn: "root:root@tcp(scripts:3306)/seata?timeout=1s&readTimeout=1s&writeTimeout=1s&parseTime=true&loc=Local&charset=utf8mb4,utf8"
+    globaltable: global_table
+    branchtable: branch_table
+    locktable: lock_table
+    maxopenconnections: 100
+    maxidleconnections: 20
+    maxlifetime: 4h
+#  pgsql:
+#    dsn: "postgres://postgres:123456@127.0.0.1:5432/seata?search_path=public&sslmode=disable"
+#    globaltable: global_table
+#    branchtable: branch_table
+#    locktable: lock_table
+#    maxopenconnections: 100
+#    maxidleconnections: 20
+#    maxlifetime: 4h
+log:
+  #logPath: /Users/scottlewis/dksl/git/1/seata-golang/cmd/profiles/dev/seata.log
+  logPath: ./seata.log
+  logLevel: info

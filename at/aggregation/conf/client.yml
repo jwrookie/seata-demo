@@ -1,0 +1,21 @@
+addressing: aggregationSvc
+serverAddressing: 127.0.0.1:8091
+tm:
+  commitRetryCount: 5
+  rollbackRetryCount: 5
+enforcementPolicy:
+  minTime: 5m
+  permitWithoutStream: true
+serverParameters:
+  maxConnectionIdle: 15s
+  maxConnectionAge: 30s
+  maxConnectionAgeGrace: 5s
+  time: 5s
+  timeout: 20s
+clientTLS:
+  enable: false
+  certFilePath: ""
+  serverName: "test.seata.io"
+log:
+  logPath: ./log/aggregation.log
+  logLevel: info

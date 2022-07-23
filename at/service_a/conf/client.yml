@@ -1,0 +1,22 @@
+addressing: orderSvc
+serverAddressing: localhost:8091
+tm:
+  commitRetryCount: 5
+  rollbackRetryCount: 5
+at:
+  dsn: "root:root@tcp(127.0.0.1:13306)/seata_a?timeout=5s&readTimeout=5s&writeTimeout=1s&parseTime=true&loc=Local&charset=utf8mb4,utf8"
+  reportRetryCount: 5
+  reportSuccessEnable: false
+  lockRetryInterval: 20ms
+  lockRetryTimes: 30
+clientParameters:
+  time: 10s
+  timeout: 20s
+  permitWithoutStream: true
+clientTLS:
+  enable: false
+  certFilePath: ""
+  serverName: "test.seata.io"
+log:
+  logPath: ./log/service_a.log
+  logLevel: info
